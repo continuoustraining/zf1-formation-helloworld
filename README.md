@@ -16,3 +16,9 @@
 cd public
 php -S localhost:8080
 ```
+
+**Usage of Phing to inject database credentials
+
+```
+vendor/bin/phing setup-db -Ddb.host=... -Ddb.username=...
+```
